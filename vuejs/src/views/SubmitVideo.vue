@@ -122,7 +122,7 @@ export default class SubmitVideo extends Vue {
         const formData = new FormData();
         formData.append("video", this.file as File);
         const fileBlob = (
-          await axios.post("http://localhost:5000/api/video", formData, {
+          await axios.post("https://yolo-simple-project-server.herokuapp.com/api/video", formData, {
             responseType: "blob"
           })
         ).data;
