@@ -25,4 +25,4 @@ To run the frontend:
 
 # Demo
 
-At this (https://yolo-simple-project-client.herokuapp.com)[link] there is a demo hosted with Heroku. The problem is that the free Heroku plan does not have enough resources for our use of yolo, so only the image will work
+At this [link](https://yolo-simple-project-client.herokuapp.com) there is a demo hosted with Heroku. The problem is that the free Heroku plan does not have enough resources for our use of yolo, so only the image will work
