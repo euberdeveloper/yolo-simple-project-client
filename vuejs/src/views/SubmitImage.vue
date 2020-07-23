@@ -120,7 +120,7 @@ export default class SubmitImage extends Vue {
         const formData = new FormData();
         formData.append("image", this.file as File);
         const fileBlob = (
-          await axios.post("https://yolo-simple-project-server.herokuapp.com/api/image", formData, {
+          await axios.post("http://localhost:5000/api/image", formData, {
             responseType: "blob"
           })
         ).data;
