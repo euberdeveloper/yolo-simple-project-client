@@ -15,6 +15,7 @@ The frontend is made with Vue.js and a Node.js to serve it. I used the VueSax UI
 To run the frontend:
 
 * Install nodejs on your machine
+* Clone this repo (`git clone https://github.com/euberdeveloper/yolo-simple-project-client.git`)
 * Open the root folder in a terminal
 * Execute `npm run frontend:build` (an alternative could be `cd vuejs && npm run build`) to build the frontend
 * Execute `npm start` to start the frontend server
