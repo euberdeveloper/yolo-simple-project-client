@@ -22,3 +22,7 @@ To run the frontend:
 * Execute `npm run frontend:build` (an alternative could be `cd vuejs && npm run build`) to build the frontend
 * Execute `npm start` to start the frontend server
 * You can now open your browser on the address 'http://localhost:8000'
+
+# Demo
+
+At this (https://yolo-simple-project-client.herokuapp.com)[link] there is a demo hosted with Heroku. The problem is that the free Heroku plan does not have enough resources for our use of yolo, so only the image will work
