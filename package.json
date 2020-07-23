@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "frontend:install": "cd vuejs && npm install",
     "frontend:build": "cd vuejs && npm run build",
     "frontend:serve": "cd vuejs && npm run serve",
     "start": "node main"
