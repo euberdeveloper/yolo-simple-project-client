@@ -17,6 +17,8 @@ To run the frontend:
 * Install nodejs on your machine
 * Clone this repo (`git clone https://github.com/euberdeveloper/yolo-simple-project-client.git`)
 * Open the root folder in a terminal
+* Execute `npm run frontend:install` (an alternative could be `cd vuejs && npm install`) to install the frontend dependencies
+* Execute `npm run install` to install the nodejs server dependencies
 * Execute `npm run frontend:build` (an alternative could be `cd vuejs && npm run build`) to build the frontend
 * Execute `npm start` to start the frontend server
 * You can now open your browser on the address 'http://localhost:8000'
