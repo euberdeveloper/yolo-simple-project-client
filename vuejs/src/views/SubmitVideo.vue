@@ -129,10 +129,10 @@ export default class SubmitVideo extends Vue {
         this.state = State.FILE_UPLOADED;
         this.downloadBlob(fileBlob);
       } catch (error) {
-        alert(`Errore nel server: ${error.response.data}`);
-        console.error(error);
-        console.error(error.response);
         this.state = State.FILE_SELECTED;
+        alert(`Errore nel server: ${error?.response?.data}`);
+        console.error(error);
+        console.error(error?.response);
       } finally {
         this.stopLoadingSpinner();
       }
