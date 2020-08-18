@@ -8,7 +8,7 @@ The servers uses yolo to recognize objects and sends back the resulted video, wh
 
 # How was it made
 
-The frontend is made with Vue.js and a Node.js to serve it. I used the VueSax UI library and axios for the requests. I also used typescript with Vuejs in order to have a cleaner code.
+The frontend is made with **Vue.js** and a **Node.js** to serve it. I used the **VueSax** UI library and **axios** for the requests. I also used **typescript** with Vuejs in order to have a cleaner code.
 
 # How to run it
 
